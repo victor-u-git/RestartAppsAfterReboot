@@ -76,7 +76,7 @@ public static class AppsToRestart
 		List<App> restart = new List<App> ();
 
 		foreach (App app in running)
-			if (!app.Path.StartsWith (@"C:\Windows\") && !app.IsContainedInStarted (startup))
+			if (!app.Path.StartsWith (@"C:\Windows\") && !app.IsContainedInStartups (startup))
 				restart.Add (app);
 
 		return restart;

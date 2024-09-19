@@ -19,7 +19,7 @@ public struct App
 		Process = process;
 	}
 
-	public bool IsContainedInStarted (List<string> started)
+	public bool IsContainedInStartups (List<string> started)
 	{
 		foreach (string s in started)
 		{
