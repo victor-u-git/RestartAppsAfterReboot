@@ -2,26 +2,18 @@
 
 ## Description
 
-To run this project, follow these steps:
-
-1. Clone the repository to your local machine.
-2. Open the project in your preferred IDE.
-3. Install any necessary dependencies.
-4. Build and run the project.
+The program makes at windows shutting down proccess a list of currently running 
+user applications which have a main window, excludes applications from startup 
+sections (registry, task schedule, startup folders), and writes the result 
+to registry's RunOnce value.
 
 ## Usage
 
-<Provide instructions on how to use the project, including any relevant code snippets or examples.>
+Build and place it into any startup place like registry or startup folder.
 
-## Contributing
+## System requirements
 
-Contributions are welcome! If you would like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your forked repository.
-5. Submit a pull request.
+The program was tested only in Windows 11 with .NET 6.
 
 ## License
 
