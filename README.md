@@ -14,7 +14,3 @@ Build and place it into any startup place like registry or startup folder.
 ## System requirements
 
 The program was tested only in Windows 11 with .NET 6.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
